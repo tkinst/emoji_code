@@ -1,4 +1,4 @@
-# tmo_cyoa_youtube_player
+# emoji_code
 
 ## Project setup
 ```
