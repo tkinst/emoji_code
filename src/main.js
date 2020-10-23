@@ -6,6 +6,7 @@ import vuetify from './plugins/vuetify'
 import VueMask from 'v-mask'
 import Vue2TouchEvents from 'vue2-touch-events'
 import './vee-validate'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 Vue.use(VueMask, {})

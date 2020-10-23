@@ -11,5 +11,9 @@ module.exports = {
     ]
   },
 
-  assetsDir: 'static'
+  assetsDir: 'static',
+
+  pwa: {
+    name: 'EmojiCode'
+  }
 }
