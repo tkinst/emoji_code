@@ -3,7 +3,7 @@ module.exports = {
     'vuetify'
   ],
 
-  publicPath: '/emoji/',
+  // publicPath: '/emoji/',
 
   configureWebpack: {
     plugins: [
