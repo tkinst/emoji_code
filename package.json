@@ -12,6 +12,7 @@
     "big-integer": "^1.6.48",
     "core-js": "^3.6.5",
     "emoji-regex": "^9.2.0",
+    "openmoji": "^12.4.0",
     "register-service-worker": "^1.7.1",
     "stringz": "^2.1.0",
     "v-mask": "^2.2.3",

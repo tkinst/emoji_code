@@ -5,6 +5,7 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import VueMask from 'v-mask'
 import Vue2TouchEvents from 'vue2-touch-events'
+import 'openmoji/font/openmoji.css'
 import './vee-validate'
 import './registerServiceWorker'
 
