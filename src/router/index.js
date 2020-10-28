@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Display from '../views/Display.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
         }
       ]
     }
+  },
+  {
+    path: '/view/',
+    name: 'Viewer',
+    component: Display
   }
 ]
 
