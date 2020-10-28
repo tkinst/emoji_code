@@ -156,8 +156,9 @@ export default {
       this.snackbar = true
     },
     emojiSelf () {
-      this.inEmoji = '😻😹🌆🔩🥪🚑'
-      this.snackbar_text = 'Secret Corner Emoji!'
+      // this.inEmoji = '😻😹🌆🔩🥪🚑'
+      // this.snackbar_text = 'Secret Corner Emoji!'
+      this.snackbar_text = this.emoji_list.join('')
       this.snackbar = true
     },
     showDevInfo () {
