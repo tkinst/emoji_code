@@ -156,13 +156,13 @@ export default {
       this.snackbar = true
     },
     emojiSelf () {
-      // this.inEmoji = '😻😹🌆🔩🥪🚑'
-      // this.snackbar_text = 'Secret Corner Emoji!'
-      this.snackbar_text = this.emoji_list.join('')
+      this.inEmoji = '😻😹🌆🔩🥪🚑'
+      this.snackbar_text = 'Secret Corner Emoji!'
       this.snackbar = true
     },
     showDevInfo () {
-      this.snackbar_text = `Build: ${document.documentElement.dataset.buildTimestampUtc}`
+      this.snackbar_text = `Build: ${document.documentElement.dataset.buildTimestampUtc} ${this.emoji_list.join('')}`
+      this.timeout = 10000
       this.snackbar = true
       console.log(this.snackbar_text)
     }
